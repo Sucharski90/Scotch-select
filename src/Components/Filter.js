@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 
+
 export default class Filter extends Component {
     render() {
       return (
@@ -38,6 +39,12 @@ export default class Filter extends Component {
             <option>No</option>
             </select>
           
+            <span>Single Malt or Blend</span>
+            <select name="malt" className="malt">
+            <option>Any</option>
+            <option>Single Malt</option>
+            <option>Blend</option>
+            </select>
             
 
         </div>
