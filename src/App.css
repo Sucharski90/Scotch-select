@@ -12,17 +12,20 @@ html {
   height: 10vh;
   text-align: center;
 }
-.listings-results {
+.results-section {
   display: flex;
-  flex-direction: row;
+  align-items: flex-start;
   flex-wrap: wrap;
   justify-content: center;
-  margin: 20px;
 }
 .results {
-  background-color: firebrick;
-  color: white;
-  height: 25vh;
-  width: 25vw;
   margin: 2.5px;
+  width: 25vw;
+  height: 30vh;
+  border-style: double;
+  border-width: 5px;
+}
+.user-details {
+  display: flex;
+  flex-direction: column;
 }

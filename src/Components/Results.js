@@ -16,15 +16,15 @@ export default class Results extends Component {
             return "Sorry your filter did not match any of our listings"
           }
 
-          return scotchData.map((x, index) => {
+          return scotchData.map((scotchData, index) => {
             return (
                 <section className="listings-results" key={index}>
                     <div className="results">
                       <div className="scotch-img">
                         <span className="Region">Region: {scotchData.region}</span> 
                           <div className="user-details">
-                            <span className="distilary">Distilary:</span>
-                            <span className="name">Name:</span>
+                            <span className="malt">Malt: {scotchData.malt}</span>
+                            <span className="name">Name: {scotchData.name}</span>
                           </div>
                       </div>
                     </div>
@@ -36,7 +36,7 @@ export default class Results extends Component {
   }
     render () {
         return (
-          <section className="results">
+          <section className="results-section">
                 {this.loopData()}
                 </section>
         )
