@@ -38,7 +38,7 @@ class App extends Component {
   filteredData() {
     
     let newData = this.state.scotchData.filter((item) => {
-      return 2 + 2;
+      return 2+2
     })
 
     if(this.state.region !== "All"){
@@ -46,6 +46,12 @@ class App extends Component {
         return item.region === this.state.region
       })
     }
+    if(this.state.age !== "All"){
+      newData = newData.filter((item) => {
+        return item.age === this.state.age
+      })
+    }
+
 
     this.setState(() => ({
       filteredData : newData 

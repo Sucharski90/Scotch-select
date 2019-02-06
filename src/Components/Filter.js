@@ -19,10 +19,10 @@ export default class Filter extends Component {
           <span>Age</span>  
           <select name="age" className="age" onChange={this.props.change}>
             <option vlaue="All">All</option>
-            <option vlaue="No Age Statement">No Age Statement</option>
+            <option vlaue="Not Stated">Not Stated</option>
             <option vlaue="5 Year">5 Year</option>
             <option vlaue="Between 5 and 10">Between 5 and 10</option>
-            <option vlaue="10 Year">10 Year</option>
+            <option vlaue="10 years">10 Year</option>
             <option vlaue="Over 10 year">Over 10 year</option>
             </select>
 

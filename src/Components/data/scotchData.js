@@ -2,16 +2,16 @@ const scotchData = [
     {
         region: 'Islay',
         age: '10 years',
-        finish: '',
+        finish: 'The finish goes on and on ? long and smoky with tarry espresso, aniseed, toasted almonds and traces of soft barley and fresh pear.',
         peat: 'Yes',
         malt: 'Single Malt',
         abv: '46%',
         name: 'Ardbeg Ten Year Old'
     },
     {
-        region: 'Speyside',
+        region: 'Islay',
         age: 'Not Stated',
-        finish: '',
+        finish: 'Lingering, seductive, gentle yet intense, with flavours of aniseed, hickory and distant subtle smoke.',
         peat: 'Yes',
         malt: 'Single Malt',
         abv: '46.6%',
@@ -20,7 +20,7 @@ const scotchData = [
     {
         region: 'Islay',
         age: 'Not Stated',
-        finish: '',
+        finish: 'Amazingly long and chewy with lingering raisiny, deep mocha tones and rich aromatic smoke into the perfectly integrated finish.',
         peat: 'Yes',
         malt: '',
         abv: '54.2%',
@@ -29,7 +29,7 @@ const scotchData = [
     {
         region: 'Islay',
         age: 'Not Stated',
-        finish: '',
+        finish: 'Long, deep and remaining powerful into the finish with black tarry coffee, chocolate coated cherries and hot pepper sauce, the lingering memories of your mysterious and daring journey into Corryvreckan.',
         peat: 'Yes',
         malt: 'Single Malt',
         abv: '57.1%',

@@ -22,6 +22,7 @@ export default class Results extends Component {
                     <div className="results">
                         <span className="region">Region: {scotchData.region}</span> 
                             <span className="malt">Malt: {scotchData.malt}</span>
+                            <span className="age">Malt: {scotchData.age}</span>
                             <span className="name">Name: {scotchData.name}</span>  
                     </div>
           
