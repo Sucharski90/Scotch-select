@@ -24,8 +24,7 @@ html {
   height: 30vh;
   border-style: double;
   border-width: 5px;
-}
-.user-details {
   display: flex;
   flex-direction: column;
 }
+

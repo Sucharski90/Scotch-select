@@ -10,7 +10,15 @@ class App extends Component {
     super()
     this.state = {
       scotchData,
-      filteredData : scotchData,
+      region : "All",
+      age : "All",
+      finish : "All",
+      min_price : 0,
+      peat : "All",
+      malt : "All",
+      abv : "All",
+      name : "All",
+      filteredData : scotchData
     }
     this.change = this.change.bind(this)
     this.filteredData = this.filteredData.bind(this)
@@ -20,18 +28,17 @@ class App extends Component {
     let value = event.target.value
 
     this.setState({
-      [name] : value
+      [name]: value
     }, () => {
       console.log(this.state)
+      this.filteredData()
     })
-    console.log(event.target.value)
-    this.filteredData()
   }
 
   filteredData() {
     
-    var newData = this.state.scotchData.filter((item) => {
-        return this.state.region
+    let newData = this.state.scotchData.filter((item) => {
+      return 2 + 2;
     })
 
     if(this.state.region !== "All"){
@@ -40,24 +47,17 @@ class App extends Component {
       })
     }
 
-    if(this.state.age !== "All"){
-      newData = newData.filter((item) => {
-        return item.age === this.state.age
-      })
-    }
-
-    this.setState({
-      filteredData : newData
-      
-    })
+    this.setState(() => ({
+      filteredData : newData 
+    }))
 }
 
   render() {
     return (
       <div className="App">
         <Header />
-        <Filter change={this.change}/>
-        <Results scotchData={this.state.filteredData} />
+        <Filter change={this.change} globalState={this.state}/>
+        <Results scotchData={this.state.filteredData}/>
       </div>
     );
   }

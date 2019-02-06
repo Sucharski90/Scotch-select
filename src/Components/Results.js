@@ -20,13 +20,9 @@ export default class Results extends Component {
             return (
                 <section className="listings-results" key={index}>
                     <div className="results">
-                      <div className="scotch-img">
-                        <span className="Region">Region: {scotchData.region}</span> 
-                          <div className="user-details">
+                        <span className="region">Region: {scotchData.region}</span> 
                             <span className="malt">Malt: {scotchData.malt}</span>
-                            <span className="name">Name: {scotchData.name}</span>
-                          </div>
-                      </div>
+                            <span className="name">Name: {scotchData.name}</span>  
                     </div>
           
                   </section>

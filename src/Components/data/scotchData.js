@@ -9,7 +9,7 @@ const scotchData = [
         name: 'Ardbeg Ten Year Old'
     },
     {
-        region: 'Islay',
+        region: 'Speyside',
         age: 'Not Stated',
         finish: '',
         peat: 'Yes',
