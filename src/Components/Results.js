@@ -21,6 +21,7 @@ export default class Results extends Component {
                 <section className="listings-results" key={index}>
                     <div className="results">
 
+                        <div className="img" style={{background: `url("${scotchData.image}") no-repeat center center`}}></div>
                     
                         <span className="region">Region: {scotchData.region}</span> 
                             <span className="malt">Malt: {scotchData.malt}</span>
