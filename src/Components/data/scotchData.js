@@ -38,7 +38,7 @@ const scotchData = [
     },
     {
         region: 'Islay',
-        age: '',
+        age: 'Not Stated',
         finish: '',
         peat: 'Yes',
         malt: '',
@@ -47,6 +47,15 @@ const scotchData = [
     },
     {
         region: 'Islay',
+        age: 'Not Stated',
+        finish: '',
+        peat: 'Yes',
+        malt: '',
+        abv: '',
+        name: ''
+    },
+    {
+        region: 'Speyside',
         age: '',
         finish: '',
         peat: 'Yes',
@@ -55,7 +64,7 @@ const scotchData = [
         name: ''
     },
     {
-        region: 'Islay',
+        region: 'Speyside',
         age: '',
         finish: '',
         peat: 'Yes',
@@ -64,7 +73,7 @@ const scotchData = [
         name: ''
     },
     {
-        region: 'Islay',
+        region: 'Highland',
         age: '',
         finish: '',
         peat: 'Yes',
@@ -73,7 +82,7 @@ const scotchData = [
         name: ''
     },
     {
-        region: 'Islay',
+        region: 'Highland',
         age: '',
         finish: '',
         peat: 'Yes',
@@ -82,7 +91,106 @@ const scotchData = [
         name: ''
     },
     {
-        region: 'Islay',
+        region: 'Highland',
+        age: '',
+        finish: '',
+        peat: 'Yes',
+        malt: '',
+        abv: '',
+        name: ''
+    },
+    {
+        region: 'Highland',
+        age: '',
+        finish: '',
+        peat: 'Yes',
+        malt: '',
+        abv: '',
+        name: ''
+    },
+    {
+        region: 'Lowland',
+        age: '',
+        finish: '',
+        peat: 'Yes',
+        malt: '',
+        abv: '',
+        name: ''
+    },
+    {
+        region: 'Lowland',
+        age: '',
+        finish: '',
+        peat: 'Yes',
+        malt: '',
+        abv: '',
+        name: ''
+    },
+    {
+        region: 'Lowland',
+        age: '',
+        finish: '',
+        peat: 'Yes',
+        malt: '',
+        abv: '',
+        name: ''
+    },
+    {
+        region: 'Lowland',
+        age: '',
+        finish: '',
+        peat: 'Yes',
+        malt: '',
+        abv: '',
+        name: ''
+    },
+    {
+        region: 'Lowland',
+        age: '',
+        finish: '',
+        peat: 'Yes',
+        malt: '',
+        abv: '',
+        name: ''
+    },
+    {
+        region: 'Campbeltown',
+        age: '',
+        finish: '',
+        peat: 'Yes',
+        malt: '',
+        abv: '',
+        name: ''
+    },
+    {
+        region: 'Campbeltown',
+        age: '',
+        finish: '',
+        peat: 'Yes',
+        malt: '',
+        abv: '',
+        name: ''
+    },
+    {
+        region: 'Campbeltown',
+        age: '',
+        finish: '',
+        peat: 'Yes',
+        malt: '',
+        abv: '',
+        name: ''
+    },
+    {
+        region: 'Campbeltown',
+        age: '',
+        finish: '',
+        peat: 'Yes',
+        malt: '',
+        abv: '',
+        name: ''
+    },
+    {
+        region: 'Campbeltown',
         age: '',
         finish: '',
         peat: 'Yes',

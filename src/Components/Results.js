@@ -23,11 +23,12 @@ export default class Results extends Component {
 
                         <div className="img" style={{background: `url("${scotchData.image}") no-repeat center center`}}></div>
                     
+                    <div className="info">
                         <span className="region">Region: {scotchData.region}</span> 
                             <span className="malt">Malt: {scotchData.malt}</span>
                             <span className="age">Malt: {scotchData.age}</span>
                             <span className="name">Name: {scotchData.name}</span>  
-                            
+                            </div>       
                     </div>
           
                   </section>
