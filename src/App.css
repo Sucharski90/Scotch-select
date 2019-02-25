@@ -15,7 +15,9 @@
   float: left;
   color: whitesmoke;
 }
-
+.Filter * {
+  padding: 10px;
+}
 .results-section {
   float: right;
   display: flex;
