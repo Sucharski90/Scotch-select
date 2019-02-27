@@ -6,7 +6,12 @@
   background-color: darkblue;
   color: white;
   height: 3rem;
-  text-align: start;
+  display: flex;
+  align-items: center;
+  font-family: 'Tangerine', cursive;
+}
+.header h1 {
+  padding: 80px;
 }
 .Filter {
   background-color: rgb(50, 60, 88);
