@@ -10,10 +10,22 @@ export default class Home extends Component {
             <div className='hero'>
             {/* hero text */}
             <div className='hero-text'>
-                <h1>Scotch</h1>
+                <h1>Whiskey</h1>
                     <h2>The Water of Life</h2>
             <Link to="/store">
-                <button>About</button>
+                <button>Scotch</button>
+            </Link>
+
+            <Link to="/store">
+                <button>American</button>
+            </Link>
+
+            <Link to="/store">
+                <button>Irish</button>
+            </Link>
+
+            <Link to="/store">
+                <button>Japanese</button>
             </Link>
             </div>
             </div>
@@ -23,13 +35,13 @@ export default class Home extends Component {
                 <div className='threeSection'>
                     <div className='threeSection-content'>
                     <h3>History</h3>
-                    <p>Explore the history of this fine aged spirit</p>
+                    <p>Explore the history of fine aged spirits</p>
                 </div>
                 </div>
                 <div className='threeSection'>
                 <div className='threeSection-content'>
-                    <h3>Regions</h3>
-                    <p>There are six distinct whisky regions of Scotland, find which region best fits you</p> 
+                    <h3>Types</h3>
+                    <p>There are many different types of whiskies, find what type best fits your taste</p> 
                 </div>
                 </div>
                 <div className='threeSection'>

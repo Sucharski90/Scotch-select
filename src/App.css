@@ -1,9 +1,13 @@
+:root {
+  --orangeish: rgb(218, 64, 8);
+  --brightred: #F34213;
+}
 * {
   margin: 0;
   padding: 0;
 }
 .header {
-  background-color: darkblue;
+  background-color: var(--orangeish);
   color: white;
   height: 3rem;
   display: flex;
@@ -31,7 +35,7 @@
 }
 .hero-text button {
   color: white;
-  background-color: turquoise;
+  background-color: var(--orangeish);
   font-size: 1.3rem;
   padding: 7px;
   border-radius: 8px;
@@ -40,13 +44,14 @@
   background-color: whitesmoke;
   cursor: pointer;
   color: turquoise;
-  transition-delay: 400ms;
+  transition: 0.3s;
 }
 
 
 .Sidenav {
   height: 100%;
   width: 160px;
+  font-family: 'Anton', sans-serif;
   position: fixed;
   z-index: 1;
   top: 0;
@@ -104,7 +109,7 @@
 .threeSection {
   height: 20rem;
   width: 28%;
-  background-color: turquoise;
+  background-color: var(--orangeish);
   color: whitesmoke;
   display: flex;
   align-items: center;
