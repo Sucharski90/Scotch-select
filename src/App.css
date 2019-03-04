@@ -42,6 +42,57 @@
   color: turquoise;
   transition-delay: 400ms;
 }
+
+
+.Sidenav {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(28,28,28);
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  margin: 0 auto;
+}
+#mySidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: rgb(167, 10, 10);
+  display: block;
+  transition: 0.3s;
+}
+#mySidenav a:hover {
+  color: #f1f1f1;
+}
+.Sidenavcl button {
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  font-size: 35px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.Sidenavcl button:focus {
+  outline: 0;
+}
+
+#closebtn {
+  background-color:  transparent;
+  position: absolute;
+  top: 0;
+  font-size: 36px;
+  margin: 0 auto;
+  color: white;
+}
+#closebtn:focus {
+  outline: 0;
+}
+
 .option-section {
   height: 85vh;
   width: 100%;
