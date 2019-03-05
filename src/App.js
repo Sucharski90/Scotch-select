@@ -3,6 +3,8 @@ import './App.css';
 import { BrowserRouter as Router , Route } from 'react-router-dom';
 import Header from './Components/Header';
 import Home from './Components/Home';
+import History from './Components/History';
+import Enjoy from './Components/Enjoy';
 import Store from './Components/Store';
 import American from './Components/American';
 import Irish from './Components/Irish';
@@ -14,7 +16,9 @@ class App extends Component {
       <Router>
       <div className="App">
         <Header />
-        <Route exact path="/" component={Home} />
+        <Route path="/home" component={Home} />
+        <Route path="/history" component={History} />
+        <Route path="/enjoy" component={Enjoy} />
         <Route path="/store" component={Store} />
         <Route path="/american" component={American} />
         <Route path="/irish" component={Irish} />

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-// import Options from './Options';
+import { Link } from 'react-router-dom';
      
 class Sidenav extends Component {
   state = {
@@ -28,10 +28,16 @@ class Sidenav extends Component {
 
           <div id="mySidenav">
             
-            <a href="#original">Home</a>
-            <a href="#weapon">History</a>
-            <a href="#cyber">Regions</a>
-            <a href="#power">Ways to Enjoy</a>
+          <Link to="/home">Home</Link>
+          <Link to="/history">History</Link>
+          <Link to="/enjoy">Ways to Enjoy</Link>
+
+
+
+            <Link to="/store">Scotch</Link>
+            <Link to="/american">American</Link>
+            <Link to="/irish">Irish</Link>
+            <Link to="/japanese">Japanese</Link>
             
             
           </div>
