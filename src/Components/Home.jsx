@@ -16,7 +16,7 @@ export default class Home extends Component {
                 <button>Scotch</button>
             </Link>
 
-            <Link to="/store">
+            <Link to="/american">
                 <button>American</button>
             </Link>
 
