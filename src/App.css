@@ -1,14 +1,16 @@
 :root {
   --orangeish: rgb(218, 64, 8);
   --brightred: #F34213;
+  --black: rgb(38, 38, 38);
+  --white: rgb(191, 191, 191);
 }
 * {
   margin: 0;
   padding: 0;
 }
 .header {
-  background-color: var(--orangeish);
-  color: white;
+  background-color: var(--black);
+  color: var(--white);
   height: 3rem;
   display: flex;
   align-items: center;
@@ -18,10 +20,14 @@
   padding: 80px;
 }
 .hero {
-  background-image: url('../src/img/Scotland.jpg');
+  background-image: url('../src/img/hero.jpg');
+  animation-name: change-hero;
+  animation-duration: 20s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
   background-position: center;
   background-size: cover;
-  height: 500px;
+  height: 600px;
   min-height: 500px;
   width: 100%;
   padding: 0px 0px;
@@ -29,6 +35,19 @@
   display: flex;
   align-items: center;
 }
+ @keyframes change-hero {
+   0% {
+    background-image: url('../src/img/hero.jpg');
+   }
+   50% {
+    background-image: url('../src/img/single-malts.jpg');
+   }
+   100% {
+    background-image: url('../src/img/Scotland.jpg');
+   }
+ }
+
+
 .hero-text {
   padding-left: 5%;
   color: whitesmoke;
@@ -71,9 +90,10 @@
   transition: 0.3s;
 }
 #mySidenav a:hover {
-  color: #f1f1f1;
+  color: var(--white);
 }
 .Sidenavcl button {
+  color: white;
   background-color: transparent;
   position: absolute;
   top: 0;
@@ -92,7 +112,7 @@
   top: 0;
   font-size: 36px;
   margin: 0 auto;
-  color: white;
+  color: var(--white);
 }
 #closebtn:focus {
   outline: 0;
@@ -135,10 +155,14 @@
 }
 
 .footer {
-  background-color: var(--orangeish);
+  background-color: var(--black);
   height: 5rem;
 }
 
+
+
+
+/* filters */
 .Filter {
   background-color: rgb(50, 60, 88);
   width: 15%;
@@ -188,4 +212,16 @@
   height: 75%; 
 }
 
-
+/* history page */
+.history {
+  background-image: url('../src/img/cliffs.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 600px;
+  min-height: 500px;
+  width: 100%;
+  padding: 0px 0px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
