@@ -45,6 +45,8 @@ export default class Home extends Component {
             
             {/* section under hero */}
             <div className='option-section'>
+
+                <h1>Few Ingredients, Endless Possibilities</h1>
                 <div className='threeSection'>
                     <div className='threeSection-content'>
                     <h3>History</h3>
