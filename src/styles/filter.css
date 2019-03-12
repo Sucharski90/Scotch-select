@@ -1,0 +1,10 @@
+.Filter {
+    background-color: rgb(50, 60, 88);
+    width: 15%;
+    height: 100vh;
+    float: left;
+    color: whitesmoke;
+  }
+  .Filter * {
+    padding: 10px;
+  }

@@ -33,7 +33,7 @@ class Sidenav extends Component {
           <Link to="/enjoy">Ways to Enjoy</Link>
           <Link to="/enjoy">How its Made</Link>
 
-
+          <h4>Search Types</h4>
 
             <Link to="/store">Scotch</Link>
             <Link to="/american">American</Link>

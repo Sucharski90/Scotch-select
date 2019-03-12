@@ -1,0 +1,48 @@
+.hero {
+    background-image: url('../img/hero.jpg');
+    animation-name: change-hero;
+    animation-duration: 20s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    min-height: 500px;
+    width: 80%;
+    padding: 0px 0px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+  }
+   @keyframes change-hero {
+     0% {
+      background-image: url('../img/hero.jpg');
+     }
+     50% {
+      background-image: url('../img/single-malts.jpg');
+     }
+     100% {
+      background-image: url('../img/Scotland.jpg');
+     }
+   }
+  
+  
+  .hero-text {
+    padding-left: 23%;
+    color: whitesmoke;
+    width: 50vw;
+  }
+  .hero-text button {
+    color: white;
+    background-color: var(--orangeish);
+    font-size: 1.3rem;
+    padding: 7px;
+    border-radius: 8px;
+  }
+  .hero-text button:hover {
+    background-color: whitesmoke;
+    cursor: pointer;
+    color: turquoise;
+    transition: 0.3s;
+  }
+  
