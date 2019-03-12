@@ -47,21 +47,21 @@ export default class Home extends Component {
             <div className='option-section'>
 
                 <h1>Few Ingredients, Endless Possibilities</h1>
-                <div className='threeSection'>
+                <div className='threeSection water'>
                     <div className='threeSection-content'>
-                    <h3>History</h3>
+                    <h3>Water</h3>
                     <p>Explore the history of fine aged spirits</p>
                 </div>
                 </div>
-                <div className='threeSection'>
+                <div className='threeSection grain'>
                 <div className='threeSection-content'>
-                    <h3>Types</h3>
+                    <h3>Grain</h3>
                     <p>There are many different types of whiskies, find what type best fits your taste</p> 
                 </div>
                 </div>
-                <div className='threeSection'>
+                <div className='threeSection yeast'>
                 <div className='threeSection-content'>
-                    <h3>Ways to Enjoy</h3>
+                    <h3>Yeast</h3>
                     <p>Weather its neat or on the rocks, discover ways to get the most out of the whisky experiance</p>
                 </div>
                 </div>

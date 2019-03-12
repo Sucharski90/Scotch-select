@@ -122,10 +122,11 @@
 
 .option-section {
   height: 85vh;
-  width: 100%;
+  width: 80%;
   background-color: whitesmoke;
   display: flex;
   align-items: center;
+  margin: 0 auto;
   justify-content: space-around;
 }
 .threeSection {
@@ -149,6 +150,21 @@
   flex-direction: column;
   justify-content: center;
   padding: 4%;
+}
+.water {
+  background-image: url('../src/img/water.jpeg');
+  background-position: center;
+  background-size: cover;
+}
+.grain {
+  background-image: url('../src/img/grain.jpeg');
+  background-position: center;
+  background-size: cover;
+}
+.yeast {
+  background-image: url('../src/img/yeast.jpg');
+  background-position: center;
+  background-size: cover;
 }
 
 .footer {
@@ -229,10 +245,13 @@
   padding-left: 23%;
 }
 .history-article {
+  color: #222222;
   margin-top: 10%;
   margin-left: 10%;
   margin-right: 10%;
-  font-size: 15px;
-  font-weight: bold;
-  
+  font-size: 0.875em;
+}
+.history-article p {
+  margin-top: 2.5%;
+  margin-bottom: 2.5%;
 }
