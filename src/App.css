@@ -30,7 +30,7 @@
   background-size: cover;
   height: 600px;
   min-height: 500px;
-  width: 100%;
+  width: 80%;
   padding: 0px 0px;
   margin: 0 auto;
   display: flex;
@@ -71,7 +71,7 @@
 
 .Sidenav {
   height: 100%;
-  width: 160px;
+  width: 140px;
   font-family: 'Anton', sans-serif;
   position: fixed;
   z-index: 1;
@@ -217,21 +217,22 @@
   background-size: cover;
   height: 600px;
   min-height: 500px;
-  width: 100%;
+  width: 80%;
   padding: 0px 0px;
   margin: 0 auto;
   display: flex;
   align-items: center;
 }
-.history h1 {
-  padding-left: 23%;
+.history-text {
   color: whitesmoke;
   width: 50vw;
+  padding-left: 23%;
 }
-.history-text {
+.history-article {
+  margin-top: 10%;
   margin-left: 10%;
   margin-right: 10%;
-  font-size: 20px;
+  font-size: 15px;
   font-weight: bold;
-
+  
 }

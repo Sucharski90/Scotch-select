@@ -31,6 +31,7 @@ class Sidenav extends Component {
           <Link to="/home">Home</Link>
           <Link to="/history">History</Link>
           <Link to="/enjoy">Ways to Enjoy</Link>
+          <Link to="/enjoy">How its Made</Link>
 
 
 

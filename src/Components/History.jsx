@@ -1,14 +1,18 @@
 import React, { Component } from 'react'
+import Footer from './Footer';
 
 export default class History extends Component {
     render() {
         return (
             <div className="history-page">
                 <div className='history'>
-                <h1>UISGEBEATHA</h1>
+                    <div className="history-text">
+                    <h1>UISCE BEATHA:</h1>
+                    <h3>Gaelic meaning Whiskey</h3> 
+                    </div>
                 </div>
 
-                <div className="history-text">
+                <div className="history-article">
                 <p>The influence of alcohol had a great effect on the development of the human civilization. As the wine, crated over 8 thousand years ago managed to infuse itself into many religions and customs over the world, whisky managed to became synonym of a Scottish history and one of the most popular modern alcoholic beverages. Although the national drink of the Scots gained worldwide popularity after 15th century, the origin of whisky can be traced to much older periods of our history.</p>
 
                 <p>Whisky is made via distillation of fermented grain and first records of that process was found in the archeological digs of millennia BC Babylon and Mesopotamia. Initially used for creation of perfumes and aromas, distillation 2nd slowly spread across the ancient civilizations where it received numerous adaptations and improvements, finally finding its home behind the walls of the European Christian monasteries. Stability of their order and the need to produce several types of alcoholic beverages that were used is several of their religious ceremonies preserved the process of fermentation and distillation during the harsh times of dark and middle ages. It is believed that distillation came to the areas of Ireland and Scotland between 11th and 13th century with Christian monks, but some records show that Ancient Celts practiced distillation during the production of their "uisgebeatha" (water of life). Low access to grapes was one of the deciding factors in the popularization of beer and whisky in northern Europe. Through the decades of perfecting the process of distillation, Scotts soon become the world leaders in production of quality whisky. By the time the first written record of whisky appeared in 1494, production and consumption of whisky in Scotland have already reached mass appeal. In that historic record, Friar John Cor received "eight bolls of malt to make aqua vitae", which was enough for the production of around 1500 bottles of whisky.</p>
@@ -23,7 +27,7 @@ export default class History extends Component {
 
                 <p>Popularity of whisky continues to grow with each passing year, and in 2009 Scottish brewers managed to export record breaking 1.1 billion bottles of whisky to the customers around the world.</p>
                 </div>
-
+            <Footer />
             </div>
         )
     }
