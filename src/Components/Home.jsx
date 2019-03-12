@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Link } from 'react-router-dom';
+import { Spring } from 'react-spring/renderprops';
 import Footer from './Footer';
 
 
@@ -10,25 +11,36 @@ export default class Home extends Component {
             {/* hero image */}
             <div className='hero'>
             {/* hero text */}
-            <div className='hero-text'>
+            <Spring
+                from={{opacity: 0}}
+                to={{ opacity: 1}}
+                config={{ delay: 2000, duration: 1000 }}
+                >
+                {props => (
+                <div style={props}>
+                    <div className='hero-text'>
                 <h1>Whiskey</h1>
-                    <h2>The Water of Life</h2>
-            <Link to="/store">
-                <button>Scotch</button>
-            </Link>
+                <h2>The Water of Life</h2>
+                <Link to="/store">
+                    <button>Scotch</button>
+                </Link>
 
-            <Link to="/american">
-                <button>American</button>
-            </Link>
+                <Link to="/american">
+                    <button>American</button>
+                </Link>
 
-            <Link to="/store">
-                <button>Irish</button>
-            </Link>
+                <Link to="/store">
+                    <button>Irish</button>
+                </Link>
 
-            <Link to="/store">
-                <button>Japanese</button>
-            </Link>
+                <Link to="/store">
+                    <button>Japanese</button>
+                </Link>
+                </div>
             </div>
+                )}
+           
+            </Spring>
             </div>
             
             {/* section under hero */}
