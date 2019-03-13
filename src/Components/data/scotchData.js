@@ -6,8 +6,7 @@ const scotchData = [
         peat: 'Yes',
         malt: 'Single Malt',
         abv: '46%',
-        name: 'Ardbeg Ten Year Old',
-        image: 'https://www.ardbeg.com/sites/ardbeg.com/files/2018-04/10YO%20blanc.jpg'
+        name: 'Ardbeg Ten Year Old'
     },
     {
         region: 'Islay',

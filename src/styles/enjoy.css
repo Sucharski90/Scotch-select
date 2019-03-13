@@ -1,0 +1,28 @@
+.enjoy {
+    background-image: url('../img/enjoy.jpeg');
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+    height: 300px;
+    width: 80%;
+    padding: 0px 0px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+  }
+  .enjoy-text {
+    color: whitesmoke;
+    width: 50vw;
+    padding-left: 23%;
+  }
+  .enjoy-article {
+    color: #222222;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 0.875em;
+  }
+  .enjoy-article p {
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+  }

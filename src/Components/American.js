@@ -1,13 +1,13 @@
 import React, { Component } from 'react'
 import Filter from './Filter';
 import Results from './Results';
-import scotchData from './data/scotchData';
+import americanData from './data/americanData';
 
 export default class American extends Component {
     constructor () {
         super()
         this.state = {
-          scotchData,
+          americanData,
           region : "All",
           age : "All",
           finish : "All",
@@ -16,7 +16,7 @@ export default class American extends Component {
           malt : "All",
           abv : "All",
           name : "All",
-          filteredData : scotchData
+          filteredData : americanData
         }
         this.change = this.change.bind(this)
         this.filteredData = this.filteredData.bind(this)
@@ -35,7 +35,7 @@ export default class American extends Component {
     
       filteredData() {
         
-        let newData = this.state.scotchData.filter((item) => {
+        let newData = this.state.americanData.filter((item) => {
           return 2+2
         })
     
@@ -59,7 +59,7 @@ export default class American extends Component {
         return (
             <div>
                <Filter change={this.change} globalState={this.state}/>
-                <Results scotchData={this.state.filteredData}/>
+                <Results americanData={this.state.filteredData}/>
             </div>
         )
     }
