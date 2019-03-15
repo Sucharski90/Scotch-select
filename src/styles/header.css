@@ -9,3 +9,17 @@
   .header h1 {
     padding-left: 145px;
   }
+  .bookmark {
+    width: 72%;
+    display: flex;
+    justify-content: flex-end;
+    
+  }
+  .fa-bookmark {
+    color: red;
+    font-size: 30px;
+  }
+  .fa-bookmark:hover {
+    cursor: pointer;
+    color: var(--white);
+  }

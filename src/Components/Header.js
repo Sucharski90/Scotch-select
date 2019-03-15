@@ -8,7 +8,9 @@ export default class Header extends Component {
         <div className="header">
         <Nav />
           <h1>Whiskey</h1>
-
+          <div className="bookmark">
+            <i class="far fa-bookmark"></i>
+          </div>
           
         </div>
       );

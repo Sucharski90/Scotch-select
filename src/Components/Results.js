@@ -27,7 +27,8 @@ export default class Results extends Component {
                         <span className="region">Region: {scotchData.region}</span> 
                             <span className="malt">Malt: {scotchData.malt}</span>
                             <span className="age">Age: {scotchData.age}</span>
-                            <span className="name">Name: {scotchData.name}</span>  
+                            <span className="name">Name: {scotchData.name}</span> 
+                            <i class="far fa-thumbs-up"></i> 
                             </div>       
                     </div>
           
