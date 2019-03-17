@@ -1,18 +1,17 @@
 .results-section {
-    float: right;
     display: flex;
     align-items: flex-start;
     flex-wrap: wrap;
     justify-content: center;
     position: relative;
-    height: 94vh;
-    width: 85%;
-    overflow: scroll;
-    background-image: linear-gradient(to bottom, #75dbff, #a9e0ff, #cfe6ff, #eaefff, #fafafa);
+    height: 100%;
+    width: 100%;
+    background-color: var(--white);
+    
   }
   .results {
     margin: 5px;
-    width: 10vw;
+    width: 15vw;
     height: 35vh;
     background-color: rgb(236, 229, 229);
     border-style: solid;

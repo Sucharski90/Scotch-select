@@ -5,6 +5,7 @@ export default class Filter extends Component {
     render() {
       return (
         <div className="Filter">
+        <div className="search-bar">
           <h4>Search</h4>
           <div>
           <span>Region</span>
@@ -56,7 +57,7 @@ export default class Filter extends Component {
             </select>
             </div>
             
-
+            </div>
         </div>
       );
     }
