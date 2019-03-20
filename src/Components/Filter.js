@@ -6,7 +6,7 @@ export default class Filter extends Component {
       return (
         <div className="Filter">
         <div className="search-bar">
-          <h4>Search</h4>
+          <h4>Search:</h4>
           <div>
           <span>Region</span>
           <select name="region" className="region" onChange={this.props.change}>

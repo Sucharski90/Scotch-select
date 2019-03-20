@@ -4,9 +4,6 @@ import { Link } from 'react-router-dom';
 class Sidenav extends Component {
   state = {
     isOpen: false,
-    options: {
-      games: ['test', 'test2', 'test3']
-    }
   }
   handleOpen = () => {
     if(this.state.isOpen){
@@ -23,7 +20,7 @@ class Sidenav extends Component {
   render() {
     if (this.state.isOpen) {
         return (
-            <div className="Sidenav">
+            <div className="Sidenav" style={{ width: 140 }}>
             <button onClick={this.handleOpen} id="closebtn">&times;</button>
 
           <div id="mySidenav">
