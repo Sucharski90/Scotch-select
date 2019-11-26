@@ -10,6 +10,7 @@
     transition: 0.5s;
     padding-top: 60px;
     margin: 0 auto;
+    width: 140;
   }
   #mySidenav a {
     padding: 8px 8px 8px 32px;
@@ -30,6 +31,8 @@
     font-size: 35px;
     margin: 0 auto;
     padding: 0;
+    border: 0;
+    padding-left: 10px;
   }
   
   .Sidenavcl button:focus {
@@ -43,6 +46,8 @@
     font-size: 36px;
     margin: 0 auto;
     color: var(--white);
+    border: 0;
+    padding-left: 10px;
   }
   #closebtn:focus {
     outline: 0;

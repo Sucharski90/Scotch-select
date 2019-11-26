@@ -1,9 +1,5 @@
 .hero {
     background-image: url('../img/hero.jpg');
-    animation-name: change-hero;
-    animation-duration: 20s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
     background-position: center;
     background-size: cover;
     height: 400px;
@@ -14,17 +10,7 @@
     display: flex;
     align-items: center;
   }
-   @keyframes change-hero {
-     0% {
-      background-image: url('../img/hero.jpg');
-     }
-     50% {
-      background-image: url('../img/single-malts.jpg');
-     }
-     100% {
-      background-image: url('../img/Scotland.jpg');
-     }
-   }
+  
   
   
   .hero-text {

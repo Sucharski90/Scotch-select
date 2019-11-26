@@ -49,6 +49,16 @@ export default class Store extends Component {
             return item.age === this.state.age
           })
         }
+        if(this.state.finish !== "All"){
+          newData = newData.filter((item) => {
+            return item.finish === this.state.finish
+          })
+        }
+        if(this.state.peat !== "All"){
+          newData = newData.filter((item) => {
+            return item.peat === this.state.peat
+          })
+        }
     
     
         this.setState(() => ({

@@ -20,7 +20,7 @@ class Sidenav extends Component {
   render() {
     if (this.state.isOpen) {
         return (
-            <div className="Sidenav" style={{ width: 140 }}>
+            <div className="Sidenav">
             <button onClick={this.handleOpen} id="closebtn">&times;</button>
 
           <div id="mySidenav">
@@ -51,4 +51,7 @@ class Sidenav extends Component {
       }
     }
 }
+
+
+
 export default Sidenav;

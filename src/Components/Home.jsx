@@ -14,7 +14,7 @@ export default class Home extends Component {
             <Spring
                 from={{opacity: 0}}
                 to={{ opacity: 1}}
-                config={{ delay: 2000, duration: 1000 }}
+                config={{ delay: 1000, duration: 1000 }}
                 >
                 {props => (
                 <div style={props}>

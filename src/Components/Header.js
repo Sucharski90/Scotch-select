@@ -9,10 +9,8 @@ export default class Header extends Component {
       return (
         <div className="header">
         <Nav />
-          <h1>Whiskey</h1>
-          <div className="bookmark">
-            <i className="far fa-bookmark">List</i>
-          </div>
+          <a href='/home'><h1>Whiskey</h1></a>
+          
           
         </div>
       );

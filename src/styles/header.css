@@ -6,9 +6,11 @@
     align-items: center;
     font-family: 'Tangerine', cursive;
   }
-  .header h1 {
+  .header a {
     padding-left: 145px;
-  }
+    text-decoration: none;
+    color: white;
+}
   .bookmark {
     width: 72%;
     display: flex;

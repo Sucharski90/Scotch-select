@@ -1,13 +1,16 @@
+.Filter {
+  background-color: rgb(50, 60, 88);
+}
 .search-bar {
     background-color: rgb(50, 60, 88);
-    display: flex;
+    display: grid;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: 80%;
     height: 10%;
-    margin: auto 0;
+    margin: auto;
     color: whitesmoke;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-left: 10px;
   }
-  .Filter * {
-    padding: 10px;
-  }
+  

@@ -28,6 +28,7 @@
     flex-direction: column;
     justify-content: center;
     padding: 4%;
+    text-shadow: 2px 2px 2px #000000;
   }
   .water {
     background-image: url('../img/water.jpeg');

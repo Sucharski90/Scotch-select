@@ -1,4 +1,5 @@
 import React, { Component} from 'react';
+import { Link } from 'react-router-dom';
 
 export default class Results extends Component {
     constructor () {
@@ -19,19 +20,20 @@ export default class Results extends Component {
           return scotchData.map((scotchData, index) => {
             return (
                 <section className="listings-results" key={index}>
+                <Link to="/home">
                     <div className="results">
 
-                        <div className="img" style={{background: `url("${scotchData.image}") no-repeat center center`}}></div>
+                        <div className="img" style={{background:`url("${scotchData.image}") no-repeat center center`}}></div>
                     
                     <div className="info">
                         <span className="region">Region: {scotchData.region}</span> 
                             <span className="malt">Malt: {scotchData.malt}</span>
                             <span className="age">Age: {scotchData.age}</span>
                             <span className="name">Name: {scotchData.name}</span> 
-                            <i class="far fa-thumbs-up"></i> 
+                            <i className="far fa-thumbs-up"></i> 
                             </div>       
                     </div>
-          
+                </Link>
                   </section>
           
         )
@@ -39,9 +41,11 @@ export default class Results extends Component {
   }
     render () {
         return (
+            <div className="container">
           <section className="results-section">
                 {this.loopData()}
                 </section>
+                </div>
         )
 }
 }
