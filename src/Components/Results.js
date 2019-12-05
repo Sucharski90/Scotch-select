@@ -1,16 +1,17 @@
 import React, { Component} from 'react';
-import { Link } from 'react-router-dom';
+
 
 export default class Results extends Component {
     constructor () {
         super()
         this.state = {
-            name: 'matt'
+            
         }
         this.loopData = this.loopData.bind(this)
     }
 
     loopData () {
+        
         let {scotchData} = this.props
 
         if (scotchData === undefined || scotchData.length === 0) {
@@ -19,8 +20,9 @@ export default class Results extends Component {
 
           return scotchData.map((scotchData, index) => {
             return (
-                <section className="listings-results" key={index}>
-                <Link to="/home">
+                <section className="listings-results" key={index} onClick={this.modal}>
+
+                
                     <div className="results">
 
                         <div className="img" style={{background:`url("${scotchData.image}") no-repeat center center`}}></div>
@@ -33,10 +35,10 @@ export default class Results extends Component {
                             <i className="far fa-thumbs-up"></i> 
                             </div>       
                     </div>
-                </Link>
                   </section>
           
         )
+        
     })
   }
     render () {
@@ -49,4 +51,7 @@ export default class Results extends Component {
         )
 }
 }
+
+
+    
 
